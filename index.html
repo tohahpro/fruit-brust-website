@@ -48,12 +48,13 @@
 
 <body class="lato-font">
 
-    <header class="max-w-screen-2xl mx-auto my-16">
+    <header class="max-w-screen-2xl mx-auto my-6 lg:my-16">
         <!-- Nav Bar  -->
-        <div class="navbar px-6 lg:bg-btn-color rounded-[40px] text-white">
-            <div class="navbar-start">
+        <div
+            class="navbar w-3/4 lg:w-full lg:px-6 lg:bg-btn-color rounded-[40px] text-white flex-row-reverse lg:flex-row">
+            <div class="navbar-start w-10 lg:w-full ">
 
-                <div class="dropdown flex-row-reverse text-black">
+                <div class="dropdown  text-black flex-row-reverse">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -61,8 +62,7 @@
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </label>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <ul tabindex="0" class=" dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-28">
                         <li><a>Home</a></li>
                         <li><a>About Us</a></li>
                         <li><a>Shop</a></li>
@@ -107,6 +107,106 @@
         </div>
 
 
+        <!-- header carousel section  -->
+
+        <section class="my-16">
+
+
+            <!-- carousel  -->
+
+            <div class="carousel w-full h-[600px] rounded-xl">
+                <div id="slide1" class="carousel-item relative w-full ">
+
+
+                    <div class="hero" style="background-image: url(images/banner1.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products</p>
+                                <button class="btn bg-btn-color border-none hover:bg-btn-color text-white">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+
+                <!-- slide-2  -->
+
+                <div id="slide2" class="carousel-item relative w-full">
+
+
+                    <div class="hero" style="background-image: url(images/banner2.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products</p>
+                                <button class="btn bg-btn-color border-none hover:bg-btn-color text-white">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <!-- slide-3  -->
+
+                <div id="slide3" class="carousel-item relative w-full">
+
+                    <div class="hero" style="background-image: url(images/banner3.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products</p>
+                                <button class="btn bg-btn-color border-none hover:bg-btn-color text-white">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <!-- slide-4  -->
+
+                <div id="slide4" class="carousel-item relative w-full">
+
+                    <div class="hero" style="background-image: url(images/banner4.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products</p>
+                                <button class="btn bg-btn-color border-none hover:bg-btn-color text-white">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </header>
 </body>
 
